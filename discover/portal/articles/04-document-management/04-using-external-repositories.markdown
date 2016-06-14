@@ -201,21 +201,15 @@ following information:
 
     **Description:** Describe the repository.
 
-    **Repository Type:** Select *SharePoint (AtomPub)*.
+    **Repository Type:** Select *SharePoint*.
 
-    **AtomPub URL:** Enter the applicable URL using the format below,
+    **Site URL:** Enter the applicable URL using the format below,
     substituting the SharePoint server's host name for *[host]* and the
     SharePoint document library's repository ID for *[repository ID]*:
 
         http://[host]/CMIS/_vti_bin/cmis/rest/[repository ID]?getRepositoryInfo
 
-    **Repository ID:** Leave this field empty. Liferay searches for the first
-    repository using the given parameters and sets this value to that
-    repository's ID.
-
-    **Site Path:** Enter data using the format below, the SharePoint server's
-    host information for *[host]* and the SharePoint document library's
-    repository name for *[repository path]*:
+    **Library Name:**
 
 		http://[host]/[repository path]
 
